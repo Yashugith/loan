@@ -51,7 +51,7 @@ def save_pipeline(pipeline):
     with open(PIPELINE_PATH, 'wb') as file:
         pickle.dump(pipeline, file)
     log_info(f"Pipeline saved at {PIPELINE_PATH}")
-
+#this is a test line
 def encode_response_variable(y):
     """
     Encodes target variable and saves the label encoder.
