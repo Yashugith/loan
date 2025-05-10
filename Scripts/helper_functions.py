@@ -37,7 +37,7 @@ def log_info(message):
     logger = get_logger()
     logger.info(message)
     print(f"INFO: {message}")  # Optional console output
-
+#this the first code 
 def log_error(message):
     """
     Logs an error-level message.
